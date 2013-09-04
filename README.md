@@ -2,3 +2,8 @@ tdd-with-spock
 ==============
 
 Here I'm going/have source code related to my talk at XPDays 2013
+
+### Build
+To build you need to have Ruby (at least 1.8.7) and Buildr 1.4.x installed.
+
+`buildr clean build`
