@@ -1,7 +1,8 @@
 # -*- coding: undecided -*-
 require 'buildr/groovy'
 
-Buildr::Groovy::Groovyc::REQUIRES.groovy = '1.8.9'
+artifact_ns(Buildr::Groovy::Groovyc).delete 'groovy'
+artifact_ns(Buildr::Groovy::Groovyc).groovy = 'org.codehaus.groovy:groovy-all:jar:>=2.1.7'
 
 VERSION_NUMBER = '0.0.1'
 GROUP = 'name.webdizz.tdd.spock'
