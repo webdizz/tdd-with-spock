@@ -1,4 +1,3 @@
-# -*- coding: undecided -*-
 require 'buildr/groovy'
 
 artifact_ns(Buildr::Groovy::Groovyc).delete 'groovy'
@@ -16,6 +15,6 @@ define "tdd-with-spock" do
   project.group = GROUP
 
   compile.with # Add classpath dependencies
-  test.compile.with # Add classpath dependencies
+  test.compile.with 'org.spockframework:spock-core:jar:0.7-groovy-2.0'
   package(:jar)
 end
