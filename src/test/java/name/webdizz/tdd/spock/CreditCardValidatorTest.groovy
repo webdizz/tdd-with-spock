@@ -14,7 +14,7 @@ class CreditCardValidatorTest extends Specification {
     }
 
     @Unroll
-    def 'should not allow empty like values'(){
+    def 'should not allow empty like values #cardNumber'(){
         def testingInstance = new CreditCardValidator()
         when:
         def res = testingInstance.isValid(cardNumber)
