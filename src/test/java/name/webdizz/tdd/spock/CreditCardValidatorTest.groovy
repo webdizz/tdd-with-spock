@@ -3,6 +3,7 @@ package name.webdizz.tdd.spock
 import spock.lang.Specification
 import spock.lang.Unroll
 import spock.lang.Shared
+import spock.lang.Ignore
 
 class CreditCardValidatorTest extends Specification {
 
@@ -30,5 +31,11 @@ class CreditCardValidatorTest extends Specification {
         cardNumber | _
         null       | _
         ''         | _
+    }
+
+    @Ignore
+    def 'should be ignored'(){
+	println 'Never invoked'
+	expect: 'a' == "a"
     }
 }
