@@ -2,11 +2,18 @@ package name.webdizz.tdd.spock
 
 import spock.lang.Specification
 import spock.lang.Unroll
+import spock.lang.Shared
 
 class CreditCardValidatorTest extends Specification {
 
+    @Shared
+    def testingInstance
+
+    def setup(){
+	testingInstance = new CreditCardValidator()
+    }
+    
     def 'should create validator'(){
-        def testingInstance = new CreditCardValidator()
         when:
         def res = testingInstance.isValid()
         then:
@@ -15,7 +22,6 @@ class CreditCardValidatorTest extends Specification {
 
     @Unroll
     def 'should not allow empty like values #cardNumber'(){
-        def testingInstance = new CreditCardValidator()
         when:
         def res = testingInstance.isValid(cardNumber)
         then:
