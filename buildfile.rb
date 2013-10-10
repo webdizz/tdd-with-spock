@@ -14,7 +14,6 @@ define "tdd-with-spock" do
   project.version = VERSION_NUMBER
   project.group = GROUP
 
-  compile.with # Add classpath dependencies
-  test.compile.with 'org.spockframework:spock-core:jar:0.7-groovy-2.0'
+  compile.with 'org.spockframework:spock-core:jar:0.7-groovy-2.0'
   package(:jar)
 end
