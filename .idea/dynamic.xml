@@ -3,11 +3,11 @@
   <component name="DynamicElementsStorage">
     <option name="containingClasses">
       <map>
-        <entry key="name.webdizz.tdd.spock.demo.XPDaysDemo">
+        <entry key="name.webdizz.tdd.spock.demo.XPDaysDemoTrial">
           <value>
             <DClassElement>
-              <option name="name" value="name.webdizz.tdd.spock.demo.XPDaysDemo" />
-              <option name="myName" value="name.webdizz.tdd.spock.demo.XPDaysDemo" />
+              <option name="name" value="name.webdizz.tdd.spock.demo.XPDaysDemoTrial" />
+              <option name="myName" value="name.webdizz.tdd.spock.demo.XPDaysDemoTrial" />
               <option name="myMethods">
                 <set>
                   <DMethodElement>
