@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DynamicElementsStorage">
+    <option name="containingClasses">
+      <map>
+        <entry key="name.webdizz.tdd.spock.demo.XPDaysDemo">
+          <value>
+            <DClassElement>
+              <option name="name" value="name.webdizz.tdd.spock.demo.XPDaysDemo" />
+              <option name="myName" value="name.webdizz.tdd.spock.demo.XPDaysDemo" />
+              <option name="myMethods">
+                <set>
+                  <DMethodElement>
+                    <option name="name" value="sayHello" />
+                    <option name="static" value="false" />
+                    <option name="type" value="java.lang.Object" />
+                    <option name="myType" value="java.lang.Object" />
+                    <option name="myStatic" value="false" />
+                    <option name="myName" value="sayHello" />
+                  </DMethodElement>
+                </set>
+              </option>
+            </DClassElement>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
+
